@@ -31,23 +31,23 @@ Apuntes y prácticas de mi estudio del lenguaje HTML5, utilizando como guía el 
 
 ## Índice del libro
 
-  1. Introducción
-  2. _Markup_ moderno
-  3. Introducción a HTML5
-  4. Estructurando páginas con elementos semánticos
-  5. Escribiendo más _Markup_ magnifico
-  6. Construir mejores formularios web
-  7. Video, gráficos y _Glitz_
-  8. Audio y video
-  9. Fuentes bonitas y efectos con CSS3
-  10. Diseño responsivo con CSS3
-  11. Dibujo básico con _Canvas_
-  12. _Canvas_ avanzado: Interactividad y animación
-  13. Construyendo aplicaciones web
-  14. Almacenado tu información
-  15. Ejecución _offline_
-  16. Comunicándose con el servidor _web_
-  17. Geolocalización, _web workers_ y administración del historial
-  18. Apendices
-  19. CSS esencial
-  20. JavaScript: El cerebro de tu página
+- [Introducción](00-01.Introduccion.md)
+- [_Markup_ Moderno](01-00.Markup_Moderno.md)
+  - [Introducción a HTML5](01-01.Introduccion_HTML5.md)
+  - Estructurando Páginas con Elementos Semánticos
+  - Escribiendo Más _Markup_ Magnifico
+  - Construyendo Mejores Formularios Web
+- Video, gráficos y _Glitz_
+  - Audio y video
+  - Fuentes bonitas y efectos con CSS3
+  - Diseño responsivo con CSS3
+  - Dibujo básico con _Canvas_
+  - _Canvas_ avanzado: Interactividad y animación
+- Construyendo aplicaciones Web
+  - Almacenado tu información
+  - Ejecución _offline_
+  - Comunicándose con el servidor _web_
+  - Geolocalización, _web workers_ y administración del historial
+- Apendices
+  - CSS esencial
+  - JavaScript: El cerebro de tu página
