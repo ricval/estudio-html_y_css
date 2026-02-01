@@ -12,3 +12,4 @@ _HyperText Markup Language_, versión5 es la quinta revisión importante del len
 Índice de revisiones de estudio:
 
 - [Revisión 01 (2026)](r1-2026/README.md)
+- [Revisión 02 (2026)](r2-2026/r2-2026.md)

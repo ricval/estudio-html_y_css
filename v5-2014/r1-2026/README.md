@@ -10,7 +10,7 @@ Apuntes y prácticas de mi estudio del lenguaje HTML5, utilizando como guía el 
 
 ## 📕 Información del libro
 
-![alt text](imgs/Html5_libro_the_missing_manual_2nd_Ed.png)
+![portada del libro](imgs/Html5_libro_the_missing_manual_2nd_Ed.png)
 
 - **Título**: HTML5: The Missing Manual
 - **Edición**: 2nd Edition
@@ -26,3 +26,28 @@ Apuntes y prácticas de mi estudio del lenguaje HTML5, utilizando como guía el 
 
 - **Editor**: VS Code v1.108
 - **Navegador**: Firefox v147.0.2
+
+***
+
+## Índice del libro
+
+  1. Introducción
+  2. _Markup_ moderno
+  3. Introducción a HTML5
+  4. Estructurando páginas con elementos semánticos
+  5. Escribiendo más _Markup_ magnifico
+  6. Construir mejores formularios web
+  7. Video, gráficos y _Glitz_
+  8. Audio y video
+  9. Fuentes bonitas y efectos con CSS3
+  10. Diseño responsivo con CSS3
+  11. Dibujo básico con _Canvas_
+  12. _Canvas_ avanzado: Interactividad y animación
+  13. Construyendo aplicaciones web
+  14. Almacenado tu información
+  15. Ejecución _offline_
+  16. Comunicándose con el servidor _web_
+  17. Geolocalización, _web workers_ y administración del historial
+  18. Apendices
+  19. CSS esencial
+  20. JavaScript: El cerebro de tu página
