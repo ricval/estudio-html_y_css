@@ -6,7 +6,7 @@ Curso gratuito en el sitio web: [freeCodeCamp](https://www.freecodecamp.org/espa
 
 - **Fecha de inicio**: 2026-02-03
 - **Fecha de término**: continuo estudiando
-- **Porcentaje de avance**: 05%
+- **Porcentaje de avance**: 20%
 
 ## 🧑🏼‍🏫 Información del Curso
 
@@ -33,12 +33,17 @@ Curso gratuito en el sitio web: [freeCodeCamp](https://www.freecodecamp.org/espa
     - ¿Qué son los atributos y cómo funcionan?
   - Depurar una página de Adopción de Mascotas
   - [05 - Entendiendo el Código Básico de HTML](05-Entendiento_el_codigo_basico_html.md)
-    - ¿Cuál es el papel del elemento de enlace en HTML y cómo se puede usar para enlazar a hojas de estilo externas?
-    - ¿Qué es boilerplate HTML y por qué es importante?
-    - ¿Qué es la codificación de caracteres UTF-8, y por qué es necesaria?
-  - 06 - Crear una aplicación de fotos de gatos
+  - 06 - Crear una aplicación de fotos de gatos  `[Taller 🔨]`
     - 42 lecciones
-  - Construir una página de recetas
-  - Fundamentos de HTML
-    - ...
+  - 07 - Construir una página de recetas `[Laboratorio 🧪]`
+  - [08 - Fundamentos de HTML]()
+  - 09 - Construir una Página de Librería `[Taller 🔨]`
+  - [10 - Entender cómo HTML afecta a SEO]()
+  - 11 - Crear una página de Agencia de Viajes `[Laboratorio 🧪]`
+  - [12 - Trabajar con elementos de Audio y Video]()
+  - 13 - Construye un reproductor de Video HTML `[Taller 🔨]`
+  - 14 - Construir un reproductor de Audio y Video HTML `[Laboratorio 🧪]`
+  - [15 - Trabajando con imágenes y SVGs]()
+  - 16 - Construir un ícono de corazón `[Taller 🔨]`
+  - 17 - ...
 

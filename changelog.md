@@ -11,6 +11,5 @@
   - Encontré material gratuito de estudio de desarrollo, el sitio es: [freeCodeCamp](https://www.freecodecamp.org/espanol/learn)
 
 ## 2026-02-04
-  - Toma de notas del curso de freeCodeCamp
-  
+  - Toma de notas del curso de freeCodeCamp, avance hasta el 20%
   
