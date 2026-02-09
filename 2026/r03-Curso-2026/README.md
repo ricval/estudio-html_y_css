@@ -1,4 +1,4 @@
-# Recurso 03 (2026)
+# Recurso 03 - Curso 🧑🏼‍🏫 (2026)
 
 Curso gratuito en el sitio web: [freeCodeCamp](https://www.freecodecamp.org/espanol/learn), incluso está en español.
 
@@ -6,7 +6,7 @@ Curso gratuito en el sitio web: [freeCodeCamp](https://www.freecodecamp.org/espa
 
 - **Fecha de inicio**: 2026-02-03
 - **Fecha de término**: continuo estudiando
-- **Porcentaje de avance**: 28%
+- **Porcentaje de avance**: 29%
 
 ## 🧑🏼‍🏫 Información del Curso
 
@@ -37,7 +37,7 @@ Curso gratuito en el sitio web: [freeCodeCamp](https://www.freecodecamp.org/espa
   - 07 - Construir una página de recetas `[Laboratorio 🧪]`
   - [08 - Fundamentos de HTML](08-Fundamentos_HTML.md)
   - 09 - Construir una Página de Librería `[Taller 🔨]`
-  - [10 - Entender cómo HTML afecta a SEO]()
+  - [10 - Entender cómo HTML afecta a SEO](10-Entender_como_HTML_afecta_SEO.md)
   - 11 - Crear una página de Agencia de Viajes `[Laboratorio 🧪]`
   - [12 - Trabajar con elementos de Audio y Video]()
   - 13 - Construye un reproductor de Video HTML `[Taller 🔨]`
@@ -55,4 +55,16 @@ Curso gratuito en el sitio web: [freeCodeCamp](https://www.freecodecamp.org/espa
   - 25 - Construir un formulario de encuesta `[Certificación]`
   - 26 - Accesibilidad
   - 27 - Revisión de HTML `[Revisión ]`
-
+- HTML Semántico
+  - 28 - Importancia del HTML Semántico
+  - 29 - Comprender Elementos Semánticos Matizados
+  - 30 - Construir una Lista de Navegadores Web Principales `[Taller 🔨]`
+  - 31 - ...
+- Formularios y Tablas
+  - 00 - Trabajando con Formularios
+  - 00 - ...
+- Construir un Formulario de Encuesta `[Certificación]`
+- Accesibilidad
+  - 00 - Importancia de la Accesibilidad y Buena Estructura HTML
+  - 00 - ...
+- Revisión HTML `[Revisión ]`

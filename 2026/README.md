@@ -1,4 +1,4 @@
-# HTML 5
+# HTML 5 y CSS 3
 
 ![Logo Html 5](imgs/HTML5_logo.png)
 
