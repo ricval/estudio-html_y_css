@@ -44,10 +44,10 @@ Curso gratuito en el sitio web: [freeCodeCamp](https://www.freecodecamp.org/espa
   - 14 - Construir un reproductor de Audio y Video HTML `[Laboratorio 🧪]`
   - [15 - Trabajando con imágenes y SVGs](15-Trabajando_con_imagenes_svg.md)
   - 16 - Construir un ícono de corazón `[Taller 🔨]`
-  - [17 - Trabajando con el elemento `<code>iframe</code>`]()
+  - [17 - Trabajando con el elemento `<iframe>`](17-Trabajando_con_iframe.md)
   - 18 - Construir una pantalla de video usando iframe `[Taller 🔨]`
   - 19 - Construir una página de compilación de video `[Laboratorio 🧪]`
-  - [20 - Trabajando con enlaces]()
+  - [20 - Trabajando con enlaces](20-Trabajando_con_enlaces.md)
   - 21 - Revisión básica de HTML `[Revisión ]`
   - 22 - Cuestionario de HTML básico `[Prueba ]`
   - 23 - HTML semántico
