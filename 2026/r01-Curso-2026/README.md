@@ -1,4 +1,4 @@
-# Recurso 03 - Curso 🧑🏼‍🏫 (2026)
+# Recurso 01 - Curso 🧑🏼‍🏫 (2026)
 
 Curso gratuito en el sitio web: [freeCodeCamp](https://www.freecodecamp.org/espanol/learn), incluso está en español.
 

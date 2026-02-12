@@ -17,3 +17,6 @@
   - Mejora en estructura en directorios
   - Fusionar estudios de HTML con CSS
   - Recurso 01 abandonado
+
+## 2026-02-12
+  - Eliminación del recurso 01 que fue abandonado y remplazado por un curso.
