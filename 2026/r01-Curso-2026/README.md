@@ -6,20 +6,20 @@ Curso gratuito en el sitio web: [freeCodeCamp](https://www.freecodecamp.org/espa
 
 - **Fecha de inicio**: 2026-02-03
 - **Fecha de término**: continuo estudiando
-- **Porcentaje de avance**: 37%
+- **Porcentaje de avance**: 48%
 
 ## 🧑🏼‍🏫 Información del Curso
 
 - **URL**: [freeCodeCamp](https://www.freecodecamp.org/espanol/learn)
 - **Idioma**: Español
-- **Secciones**: 293
+- **Lecciones**: 293
 - **Año de publicación**: 2026
 
 ## 🖥 Información sobre mi setup
 
 - **Editor**: VS Code v1.108
 - **Navegador**: Firefox v147.0.2
-- **Sistema Operativo**: Windows v11
+- **Sistema Operativo**: Windows v11 home
 
 ***
 
@@ -48,23 +48,30 @@ Curso gratuito en el sitio web: [freeCodeCamp](https://www.freecodecamp.org/espa
   - 18 - Construir una pantalla de video usando iframe `[Taller 🔨]`
   - 19 - Construir una página de compilación de video `[Laboratorio 🧪]`
   - [20 - Trabajando con enlaces](20-Trabajando_con_enlaces.md)
-  - 21 - Revisión básica de HTML `[Revisión ]`
-  - 22 - Cuestionario de HTML básico `[Prueba ]`
-  - 23 - HTML semántico
-  - 24 - Formularios y Tablas
-  - 25 - Construir un formulario de encuesta `[Certificación]`
-  - 26 - Accesibilidad
-  - 27 - Revisión de HTML `[Revisión ]`
+  - 21 - Revisión básica de HTML `[Revisión ☑️]`
+  - 22 - Cuestionario de HTML básico `[Prueba ✍]`
 - HTML Semántico
-  - 28 - Importancia del HTML Semántico
-  - 29 - Comprender Elementos Semánticos Matizados
-  - 30 - Construir una Lista de Navegadores Web Principales `[Taller 🔨]`
-  - 31 - ...
+  - [23 - Importancia del HTML Semántico](23-Importancia_HTML_Semantico.md)
+  - [24 - Comprender Elementos Semánticos Matizados](24-Comprender-elementos-semanticos.md)
+  - 25 - Construir una Lista de Navegadores Web Principales `[Taller 🔨]`
+  - [26 - Trabajando con Elementos Semánticos de Texto y Tiempo]()
+  - 27 - Crea la página de consejos de empleo de Quincy `[Taller 🔨]`
+  - [28 - Trabajando con Elementos Semánticos Especializados]()
+  - 29 - Construir una Página de Blog de Gatos `[Taller 🔨]`
+  - 30 - Construir un Centro de Eventos `[Laboratorio 🧪]`
+  - 31 - Revisión de HTML Semántico `[Revisión ☑️]`
+  - 32 - Cuestionario de HTML Semántico `[Prueba ✍]`
 - Formularios y Tablas
-  - 00 - Trabajando con Formularios
-  - 00 - ...
-- Construir un Formulario de Encuesta `[Certificación]`
+  - [33 - Trabajando con Formularios]()
+  - 34 - Construir un Formulario de Retroalimentación Hotelera `[Taller 🔨]`
+  - [35 - Trabajando con Tablas]()
+  - 36 - Construir una Mesa de Exámenes Finales `[Taller 🔨]`
+  - 37 - Construir una Tabla de Catálogo de Libros `[Laboratorio 🧪]`
+  - [38 - Trabajando con Herramientas HTML]()
+  - 39 - Revisión de Tablas y Formularios HMTL `[Revisión ☑️]`
+  - 40 - Cuestionario de Tablas y Formularios HTML `[Prueba ✍]`
+- Construir un Formulario de Encuesta `[Certificación 📜]`
 - Accesibilidad
-  - 00 - Importancia de la Accesibilidad y Buena Estructura HTML
-  - 00 - ...
-- Revisión HTML `[Revisión ]`
+  - [41 - Importancia de la Accesibilidad y Buena Estructura HTML]()
+  - 42 - ...
+- Revisión HTML `[Revisión ☑️]`

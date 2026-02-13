@@ -1,4 +1,4 @@
-# Recurso 02 (2022)
+# Recurso 02 - Libro 📕 (2022)
 
 Apuntes y prácticas de mi estudio del lenguaje HTML5, utilizando como guía el libro: **Responsive Web Design with HTML5 and CSS** (4nd Edition).
 
