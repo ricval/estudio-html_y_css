@@ -6,13 +6,13 @@ Curso gratuito en el sitio web: [freeCodeCamp](https://www.freecodecamp.org/espa
 
 - **Fecha de inicio**: 2026-02-03
 - **Fecha de término**: continuo estudiando
-- **Porcentaje de avance**: 62%
+- **Porcentaje de avance**: 75%
 - **Tracker**:
 ```
 2026 Febrero
 Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa
 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28
-__ >< >< >< >< >< __ __ >< >< >< >< >< __ __ >< >< __ >< 
+__ >< >< >< >< >< __ __ >< >< >< >< >< __ __ >< >< __ >< ><
 ```
 
 ## 🧑🏼‍🏫 Información del Curso
@@ -69,7 +69,7 @@ __ >< >< >< >< >< __ __ >< >< >< >< >< __ __ >< >< __ ><
   - 31 - Revisión de HTML Semántico `[Revisión ☑️]`
   - 32 - Cuestionario de HTML Semántico `[Prueba ✍]`
 - Formularios y Tablas
-  - [33 - Trabajando con Formularios]()
+  - [33 - Trabajando con Formularios](33-Trabajando_con_formularios.md)
   - 34 - Construir un Formulario de Retroalimentación Hotelera `[Taller 🔨]`
   - [35 - Trabajando con Tablas]()
   - 36 - Construir una Mesa de Exámenes Finales `[Taller 🔨]`
