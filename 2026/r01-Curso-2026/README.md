@@ -6,13 +6,14 @@ Curso gratuito en el sitio web: [freeCodeCamp](https://www.freecodecamp.org/espa
 
 - **Fecha de inicio**: 2026-02-03
 - **Fecha de término**: continuo estudiando
-- **Porcentaje de avance**: 75%
+- **Porcentaje de avance**: 80% - L.237 de 293 - `[########__]`
+- **Calificación**: ⭐⭐⭐ - No da a conocer el diseño moderno y avanzado que se necesita para hacer una aplicación web
 - **Tracker**:
 ```
 2026 Febrero
 Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa
 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28
-__ >< >< >< >< >< __ __ >< >< >< >< >< __ __ >< >< __ >< ><
+__ >< >< >< >< >< __ __ >< >< >< >< >< __ __ >< >< __ >< >< __ __ ><
 ```
 
 ## 🧑🏼‍🏫 Información del Curso
@@ -71,14 +72,25 @@ __ >< >< >< >< >< __ __ >< >< >< >< >< __ __ >< >< __ >< ><
 - Formularios y Tablas
   - [33 - Trabajando con Formularios](33-Trabajando_con_formularios.md)
   - 34 - Construir un Formulario de Retroalimentación Hotelera `[Taller 🔨]`
-  - [35 - Trabajando con Tablas]()
+  - [35 - Trabajando con Tablas](35-Trabajando_con_tablas.md)
   - 36 - Construir una Mesa de Exámenes Finales `[Taller 🔨]`
   - 37 - Construir una Tabla de Catálogo de Libros `[Laboratorio 🧪]`
-  - [38 - Trabajando con Herramientas HTML]()
+  - [38 - Trabajando con Herramientas HTML](38-Trabajando_con_Herramientas_HTML.md)
   - 39 - Revisión de Tablas y Formularios HMTL `[Revisión ☑️]`
   - 40 - Cuestionario de Tablas y Formularios HTML `[Prueba ✍]`
 - Construir un Formulario de Encuesta `[Certificación 📜]`
 - Accesibilidad
   - [41 - Importancia de la Accesibilidad y Buena Estructura HTML]()
-  - 42 - ...
+  - 42 - Depurar una página del Blog de Viajes de Codificación `[Taller 🔨]`
+  - 43 - Trabajando con Tablas y Formularios Accesibles
+  - 44 - Construir una Tabla de Horarios de Conferencias Tecnológicas `[Taller 🔨]`
+  - 45 - Depura un formulario de donación `[Laboratorio 🧪]`
+  - 46 - Introducción a ARIA
+  - 47 - Cree un control de audio accesible `[Taller 🔨]`
+  - 48 - Trabajando con Elementos de Medios Accesibles
+  - 49 - Construir una página de pago `[Laboratorio 🧪]`
+  - 50 - Diseñar una página de reseñas de películas `[Laboratorio 🧪]`
+  - 51 - Construir un reproductor multimedia `[Laboratorio 🧪]`
+  - 52 - Revisión de accesibilidad HTML `[Revisión ☑️]`
+  - 53 - Cuestionario de accesibilidad HTML `[Prueba ✍]`
 - Revisión HTML `[Revisión ☑️]`
