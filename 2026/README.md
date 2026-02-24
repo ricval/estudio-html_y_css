@@ -16,3 +16,4 @@ _HyperText Markup Language_, versión5 es la quinta revisión importante del len
   - [Recurso 02 - Libro 📕: 2022 ~ Responsive Web Design with HTML5 and CSS](r02-Libro-2022/README.md)
   - [Recurso 03 - Libro 📕: 2023 ~ Mastering HTML and CSS for Modern Development](r03-Libro-2023/README.md)
   - [Recurso 04 - Libro 📕: 2015 ~ CSS secrets](r04-Libro-2015/README.md)
+  - [Recurso 05 - IA 🤖: 2026 ~ HTML con Gemini](r05-IA-2026/README.md)
