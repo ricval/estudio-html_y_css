@@ -6,8 +6,8 @@ Curso gratuito en el sitio web: [freeCodeCamp](https://www.freecodecamp.org/espa
 
 - **Fecha de inicio**: 2026-02-03
 - **Fecha de término**: continuo estudiando
-- **Porcentaje de avance**: 80% - L.237 de 293 - `[########__]`
-- **Calificación**: ⭐⭐⭐ - No da a conocer el diseño moderno y avanzado que se necesita para hacer una aplicación web
+- **Porcentaje de avance**: 80% - L.237 de 293 - `[########################______]` x3
+- **Calificación**: ⭐⭐⭐ - No da a conocer el diseño moderno y avanzado que se necesita para hacer una aplicación web.
 - **Tracker**:
 ```
 2026 Febrero
