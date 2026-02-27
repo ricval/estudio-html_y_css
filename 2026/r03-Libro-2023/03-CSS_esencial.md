@@ -251,3 +251,130 @@ Bordes
 
 #### Posicionamiento Static, Relative, Absolute y Fixed
 
+**Posicionamiento Estático (_Static_)**: Es el posicionamiento por defecto para todos los elementos HTML. En este modo todos los elementos se posicionan de acuerdo al flujo normal del documento, se van apilando en el orden en el que van apareciendo.
+
+```CSS
+.ejemplo-static {
+    position: static;
+}
+```
+
+**Posicionamiento Relativo (_Relative_)**: Cambia el elemento de su posición por defecto sin afectar al arreglo de los otros elemento.
+
+**Posicionamiento Absoluto (_Absolute_)**: Quita el elemento de su posición por defecto y lo posiciona en relativo lo más cerca de su antecesor. Si no hay antecesor, toma la posición relativa del bloque inicial contenedor. Normalmente el elemento `<html>`.
+
+**Posicionamiento Fijo (_Fixed_)**: El elemento se está en esa posición por siempre aún y cuando el usuario haga _scroll_ en la página.
+
+#### Z-Index y Apilando Contexto
+
+**Z-Index**: esta propiedad determina el orden en que se apilan los elementos a través del eje-z. Elemento con mayor z-index aparecerán en frente que los de menor valor.
+
+```css
+.z-index-ejemplo {
+    z-index: 2;
+}
+.z-index-ejemplo2 {
+    z-index: 1;
+}
+```
+
+**Apilando Contexto**: Es esencial para distribuciones complejas. Esta formado por ciertas propiedades CSS, como la opacidad y transformación. Elementos con el mismo contexto de apilado son apiladas juntas antes de considerarlas elementos en otro contexto de apilado.
+```css
+.stacking-context-ejemplo   {
+    transform: translateZ(0);
+    /* Crea un apilado de contexto */
+}
+```
+
+### 03.03.04 - Flexbox y Grid Layout
+
+#### Introducción al _Flexbox_
+
+Es el nombre corto de Caja Flexible. Aporta una distribución más eficiente y predecible. Es útil con el arreglo y alineamiento de items dentro de un contenedor.
+
+Es una distribución de una dimensión que trabaja solo con una eje, en lugar de dos, horizontal y vertical. Esto permite la creación de diseños flexibles y responsivos para distribuir espacio dentro de un contenedor y alineando items a lo largo del eje principal y a través de él.
+
+**Conceptos Clave**:
+  - **Flex Container**: El elemento padre que contendrá los items tipo flex.
+  - **Flex Items**: Los elementos hijos que el contenedor flex convertirá en cajas flexibles.
+
+**Propiedades del Contenedor Flex**:
+  - **display**: Establece el flex para habilitar sus propiedades tipo flex.
+  - **flex-direction**: Define la dirección del eje principal (_row_, _column_, _row-reverse_, _column-reverse_).
+  - **justify-content**: Alinea los items a través de eje principal.
+  - **align-items**: Alineación de los item a través del eje.
+  - **align-self**: Permite a items individuales sobre escribir los valores de _align-items_.
+
+**Propiedades de los items Flex**:
+  - **order**: Especifica el orden.
+  - **flex-grow**: Determina cuanto un flex item puede crecer relativamente a otros.
+  - **flex-shrink**: Define la habilidad de un item flex para contraerse.
+  - **flex-basis**: Establece el tamaño inicial de un item flex.
+
+#### Contenedores Flex e Items
+
+**Creando un Contenedor Flex**:
+Para establecer un contenedor flex, asigna la propiedad `display` a `flex` en el elemento padre:
+```css
+.container  {
+    display: flex;
+}
+
+.item {
+    flex: 1; /* Cada item toma un espaciado igual */
+}
+```
+
+**Definiendo los Items Flex**:
+Cada elemento hijo dentro de un contendor flex se vuelve un item flex:
+```html
+<div class="container">
+    <div class="item">item 1</div>
+    <div class="item">item 2</div>
+    <div class="item">item 3</div>
+</div>
+```
+
+#### Introducción al _Grid Layout_
+
+Este tipo utiliza una arreglo bidimesional que da un control preciso sobre el arreglo de los elementos tanto en renglones como en columnas. Es muy poderoso para diseños complejos basados en estructuras de malla.
+
+Permite la creación de mallas con columnas y renglones fijos o de tamaño-flexible.
+
+**Conceptos Clave**:
+  - **Grid Container**: Es el elemento padre contenedor de los grid items.
+  - **Grid Items**: Son los elementos hijos del grid contenedor que se alinean en renglones y columnas.
+
+**Propiedades del Grid Contanier**:
+  - **display**: Establece la malla para habilitar las propiedades de malla.
+  - **grid-template-rows / grid-template-columns**: Define el tamaño y número de renglones y columna.
+  - **grid-gap**: Especifica el tamaño de espacios entre los grid items.
+
+**Propiedades de los Grid Items**:
+  - **grid-row / grid-column**: Determina el lugar de un item dentro del grid.
+  - **grid-area**: Asigna un nombre a un item, permitiendo posicionarlo a través de una plantilla grid.
+
+#### Contenedores Grid e Items
+
+**Creación de un Contenedor Grid**:
+```css
+.container  {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Tres columnas iguales */
+    grid-gap: 10px; /* Espacio entre los grid items */
+}
+
+.item {
+    /* Estilo adicional para los grid items */
+}
+```
+
+**Definiendo los Grid Items**:
+Cada elemento hijo dentro de un contendor grid se vuelve un item grid:
+```html
+<div class="container">
+    <div class="item">item 1</div>
+    <div class="item">item 2</div>
+    <div class="item">item 3</div>
+</div>
+```

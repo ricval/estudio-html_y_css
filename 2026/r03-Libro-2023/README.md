@@ -6,14 +6,15 @@ Apuntes y prácticas de mi estudio del lenguaje HTML5 y CSS3, utilizando como gu
 
 - **Fecha de inicio**: 2026-02-21
 - **Fecha de término**: Estudiando
-- **Porcentaje de avance**: 24% - p.82 de 336 - `[#######_______________________]` x3
+- **Porcentaje de avance**: 28% - p.95 de 336 - `[#######_______________________]` x3
+- **Calificación**: ⭐⭐⭐ - En ciertas cosas repite mucho los conceptos, pero en otras se lo pasa muy rápido.
 - **Tracker**:
 
 ```markdown
 # 2026 Febrero
 **Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa**
  _01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28_
-                                                              >< ><    ><
+                                                              >< ><    ><       ><
 ```
 
 ## 📕 Información del libro
@@ -52,7 +53,7 @@ Apuntes y prácticas de mi estudio del lenguaje HTML5 y CSS3, utilizando como gu
   - 03.02: Dando estilo a texto y fuentes
   - 03.03: _Box Model_ y _Layout_
 
-- Capítulo 04: HTML y CSS avanzado
+- [Capítulo 04: HTML y CSS avanzado](04-HTML_y_CSS_Avanzado.md)
   - 04.01: Formularios e _inputs_
   - 04.02: Contenido embebido y multimedia
   - 04.03: Elementos semánticos HTML5
