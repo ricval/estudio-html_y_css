@@ -13,7 +13,7 @@ Curso gratuito en el sitio web: [freeCodeCamp](https://www.freecodecamp.org/espa
 2026 Febrero
 Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa
 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28
-__ >< >< >< >< >< __ __ >< >< >< >< >< __ __ >< >< __ >< >< __ __ ><
+__ >< >< >< >< >< __ __ >< >< >< >< >< __ __ >< >< __ >< >< __ __ ><          ><
 ```
 
 ## 🧑🏼‍🏫 Información del Curso
@@ -80,7 +80,7 @@ __ >< >< >< >< >< __ __ >< >< >< >< >< __ __ >< >< __ >< >< __ __ ><
   - 40 - Cuestionario de Tablas y Formularios HTML `[Prueba ✍]`
 - Construir un Formulario de Encuesta `[Certificación 📜]`
 - Accesibilidad
-  - [41 - Importancia de la Accesibilidad y Buena Estructura HTML]()
+  - [41 - Importancia de la Accesibilidad y Buena Estructura HTML](41-Importancia_de_accesibilidad.md)
   - 42 - Depurar una página del Blog de Viajes de Codificación `[Taller 🔨]`
   - 43 - Trabajando con Tablas y Formularios Accesibles
   - 44 - Construir una Tabla de Horarios de Conferencias Tecnológicas `[Taller 🔨]`
