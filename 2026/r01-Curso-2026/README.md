@@ -6,7 +6,7 @@ Curso gratuito en el sitio web: [freeCodeCamp](https://www.freecodecamp.org/espa
 
 - **Fecha de inicio**: 2026-02-03
 - **Fecha de término**: continuo estudiando
-- **Porcentaje de avance**: 92% - L.271 de 293 - `[###########################___]` x3
+- **Porcentaje de avance**: 96% - L.283 de 293 - `[###########################___]` x3
 - **Calificación**: ⭐⭐⭐ - No da a conocer el diseño moderno y avanzado que se necesita para hacer una aplicación web.
 - **Tracker**:
 ```
@@ -18,7 +18,7 @@ Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi
 2026 Marzo
 Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma
 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
-   ><
+   ><             ><
 ```
 
 ## 🧑🏼‍🏫 Información del Curso
@@ -90,7 +90,7 @@ Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi
   - [43 - Trabajando con Tablas y Formularios Accesibles](43-Trabajando_con_tablas_y_formularios_accesibles.md)
   - 44 - Construir una Tabla de Horarios de Conferencias Tecnológicas `[Taller 🔨]`
   - 45 - Depura un formulario de donación `[Laboratorio 🧪]`
-  - 46 - Introducción a ARIA
+  - [46 - Introducción a ARIA](46-Introduccion_a_ARIA.md)
   - 47 - Cree un control de audio accesible `[Taller 🔨]`
   - 48 - Trabajando con Elementos de Medios Accesibles
   - 49 - Construir una página de pago `[Laboratorio 🧪]`
