@@ -5,27 +5,31 @@ Curso gratuito en el sitio web: [freeCodeCamp](https://www.freecodecamp.org/espa
 ## ⏲ Información sobre el tiempo dedicado
 
 - **Fecha de inicio**: 2026-02-03
-- **Fecha de término**: continuo estudiando
-- **Porcentaje de avance**: 96% - L.283 de 293 - `[###########################___]` x3
+- **Fecha de término**: continúo estudiando
+- **Porcentaje de avance**: 99% - L.299 de 302 - `[#############################_]` x3
 - **Calificación**: ⭐⭐⭐ - No da a conocer el diseño moderno y avanzado que se necesita para hacer una aplicación web.
-- **Tracker**:
-```
-2026 Febrero
+
+### 🎯 Tracker
+
+```md
+# Tracker
+
+## 2026 Febrero
 Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa
 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28
    >< >< >< >< ><       >< >< >< >< ><       >< ><    >< ><       ><          ><    = 16
 
-2026 Marzo
+## 2026 Marzo
 Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma
 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
-   ><             ><
+   ><             ><                                                                ><
 ```
 
 ## 🧑🏼‍🏫 Información del Curso
 
 - **URL**: [freeCodeCamp](https://www.freecodecamp.org/espanol/learn)
 - **Idioma**: Español
-- **Lecciones**: 293
+- **Lecciones**: 302
 - **Año de publicación**: 2026
 
 ## 🖥 Información sobre mi setup
@@ -42,8 +46,6 @@ Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi
   - 01 - Construir un Esquema Curricular `[Taller 🔨]`
   - 02 - Depurar la página de perfil de _Camperbot_ `[Laboratorio 🧪]`
   - 03 - Entendiendo los Atributos HTML
-    - ¿Qué papel desempeña el HTML en la red?
-    - ¿Qué son los atributos y cómo funcionan?
   - 04 - Depurar una página de Adopción de Mascotas `[Laboratorio 🧪]`
   - [05 - Entendiendo el Código Básico de HTML](05-Entendiento_el_codigo_basico_html.md)
   - 06 - Crear una aplicación de fotos de gatos `[Taller 🔨]`
@@ -53,6 +55,7 @@ Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi
   - [10 - Entender cómo HTML afecta a SEO](10-Entender_como_HTML_afecta_SEO.md)
   - 11 - Crear una página de Agencia de Viajes `[Laboratorio 🧪]`
   - [12 - Trabajar con elementos de Audio y Video](12-Trabajar_con_elementos_audio_video.md)
+  - 12.5 - Construir un Reproductor de Música HTML `[Taller 🔨]`
   - 13 - Construye un reproductor de Video HTML `[Taller 🔨]`
   - 14 - Construir un reproductor de Audio y Video HTML `[Laboratorio 🧪]`
   - [15 - Trabajando con imágenes y SVGs](15-Trabajando_con_imagenes_svg.md)
@@ -81,7 +84,7 @@ Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi
   - 36 - Construir una Mesa de Exámenes Finales `[Taller 🔨]`
   - 37 - Construir una Tabla de Catálogo de Libros `[Laboratorio 🧪]`
   - [38 - Trabajando con Herramientas HTML](38-Trabajando_con_Herramientas_HTML.md)
-  - 39 - Revisión de Tablas y Formularios HMTL `[Revisión ☑️]`
+  - 39 - Revisión de Tablas y Formularios HTML `[Revisión ☑️]`
   - 40 - Cuestionario de Tablas y Formularios HTML `[Prueba ✍]`
 - Construir un Formulario de Encuesta `[Certificación 📜]`
 - Accesibilidad
@@ -92,7 +95,7 @@ Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi
   - 45 - Depura un formulario de donación `[Laboratorio 🧪]`
   - [46 - Introducción a ARIA](46-Introduccion_a_ARIA.md)
   - 47 - Cree un control de audio accesible `[Taller 🔨]`
-  - 48 - Trabajando con Elementos de Medios Accesibles
+  - [48 - Trabajando con Elementos de Medios Accesibles](48-Trabajando_con_elementos_medios_accesibles.md)
   - 49 - Construir una página de pago `[Laboratorio 🧪]`
   - 50 - Diseñar una página de reseñas de películas `[Laboratorio 🧪]`
   - 51 - Construir un reproductor multimedia `[Laboratorio 🧪]`
