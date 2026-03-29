@@ -34,13 +34,13 @@ Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi
 
 ## 🖥 Información sobre mi setup
 
-- **Editor**: VS Code v1.108
-- **Navegador**: Firefox v147.0.2
+- **Editor**: VS Code v1.113
+- **Navegador**: Firefox v149
 - **Sistema Operativo**: Windows v11 home
 
 ***
 
-## Índice de temas
+## 📝 Índice de temas
 
 - HTML Básico
   - 01 - Construir un Esquema Curricular `[Taller 🔨]`

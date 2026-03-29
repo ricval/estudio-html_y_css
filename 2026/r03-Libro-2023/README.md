@@ -7,14 +7,17 @@ Apuntes y prácticas de mi estudio del lenguaje HTML5 y CSS3, utilizando como gu
 - **Fecha de inicio**: 2026-02-21
 - **Fecha de término**: Estudiando
 - **Porcentaje de avance**: 28% - p.95 de 336 - `[#######_______________________]` x3
-- **Calificación**: ⭐⭐⭐ - En ciertas cosas repite mucho los conceptos, pero en otras se lo pasa muy rápido.
-- **Tracker**:
+- **Calificación**: ⭐⭐⭐ - En ciertas cosas repite mucho los conceptos, pero en otras lo pasa muy rápido.
 
-```markdown
-# 2026 Febrero
-**Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa**
- _01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28_
-                                                              >< ><    ><       ><
+### 🎯 Tracker
+
+```md
+# Tracker
+
+## 2026 Febrero
+Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa
+01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28
+                                                            >< ><    ><       ><
 ```
 
 ## 📕 Información del libro
@@ -30,14 +33,14 @@ Apuntes y prácticas de mi estudio del lenguaje HTML5 y CSS3, utilizando como gu
 
 ## 🖥 Información sobre mi setup
 
-- **Editor**: VS Code v1.108
-- **Navegador**: Firefox v147.0.2
+- **Editor**: VS Code v1.113
+- **Navegador**: Firefox v149.0
 - **Sistema Operativo**: Windows v11 home
 - **PDF Reader**: Foxit PDF Reader v2025.3.0
 
 ***
 
-## Índice del libro
+## 📝 Índice del libro
 
 - [Capítulo 01: Introducción al Desarrollo Web](01-Introduccion.md)
   - 01.01: Entendiendo lo básico
