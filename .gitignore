@@ -1,0 +1,21 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv/
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# --- uv (Astral) ---
+# uv crea este archivo para bloquear las versiones de las dependencias. 
+# Si es un proyecto final/app, DEBES subirlo. Si es una librería, es opcional.
+uv.lock
+
+# --- Sistema ---
+.DS_Store
+Thumbs.db

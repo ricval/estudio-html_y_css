@@ -7,6 +7,7 @@ Apuntes y prácticas de mi estudio del lenguaje HTML5 y CSS3, utilizando como gu
 - **Fecha de inicio**: 2026-02-21
 - **Fecha de término**: Estudiando
 - **Porcentaje de avance**: 28% - p.95 de 336 - `[#######_______________________]` x3
+- **Días efectivos**: 04
 - **Calificación**: ⭐⭐⭐ - En ciertas cosas repite mucho los conceptos, pero en otras lo pasa muy rápido.
 
 ### 🎯 Tracker
