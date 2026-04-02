@@ -26,7 +26,6 @@ Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu
 ![portada del libro](portada.jpg)
 
 - **Título**: Server-Driven Web Apps with HTMX
-- **Edición**: 4th
 - **Autor**: R. Mark Volkmann
 - **Idioma**: Inglés
 - **Año publicación**: 2024
@@ -38,6 +37,8 @@ Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu
 
 - **Editor**: VS Code v1.113.0
 - **Navegador**: Firefox v149.0
+- **Python**: v3.14.3
+- **uv**: v0.11.3
 
 ***
 

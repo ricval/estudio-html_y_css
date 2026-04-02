@@ -5,8 +5,10 @@ Curso gratuito en el sitio web: [freeCodeCamp](https://www.freecodecamp.org/espa
 ## ⏲ Información sobre el tiempo dedicado
 
 - **Fecha de inicio**: 2026-02-03
-- **Fecha de término**: continúo estudiando
-- **Porcentaje de avance**: 99% - L.299 de 302 - `[#############################_]` x3
+- **Fecha de término**: 2026-04-02
+- **Días trascurridos**: 58 días
+- **Días efectivos**: 20 días
+- **Porcentaje de avance**: 100% - L.302 de 302 - `[##############################]` x3
 - **Calificación**: ⭐⭐⭐ - No da a conocer el diseño moderno y avanzado que se necesita para hacer una aplicación web.
 
 ### 🎯 Tracker
@@ -14,15 +16,20 @@ Curso gratuito en el sitio web: [freeCodeCamp](https://www.freecodecamp.org/espa
 ```md
 # Tracker
 
-## 2026 Febrero
+## 2026 - 02 Febrero
 Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa
 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28
    >< >< >< >< ><       >< >< >< >< ><       >< ><    >< ><       ><          ><    = 16
 
-## 2026 Marzo
+## 2026 - 03 Marzo
 Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma
 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
-   ><             ><                                                                ><
+   ><             ><                                                                ><       = 3 += 19
+
+## 2026 - 04 Abril
+Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju
+01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30
+   ><                                                                                     = 1 += 20
 ```
 
 ## 🧑🏼‍🏫 Información del Curso
