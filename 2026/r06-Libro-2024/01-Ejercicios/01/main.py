@@ -16,7 +16,7 @@ if os.path.exists("public"):
 @app.get("/", response_class=FileResponse)
 def read_root():
     # Buscamos el archivo dentro de la carpeta 'public'
-    return FileResponse("public/index.html")
+    return FileResponse("public/01/index.html")
 
 @app.get("/items/{item_id}")
 def read_item(item_id: int, q: str = None):

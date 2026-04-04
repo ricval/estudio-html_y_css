@@ -67,10 +67,13 @@ Opciones que no utilizan respuestas HTML
 Ejecuta el siguiente comando para inicializar el ejercicio:
 
 Instalar `uv` si no lo tienes:
+
 ```bash
 url -LsSf https://astral.sh/uv/install.sh | sh
 ```
+
 Crea un nuevo proyecto:
+
 ```bash
 # Inicia un nuevo proyecto
 uv init
@@ -93,3 +96,26 @@ uv run main.py
 
 ## Creando un aplicación CRUD
 
+Esta aplicación puede mantener una colección de cualquier data ordenado. Hagamos una lista para perros. La información la mantendremos en memoria.
+
+Ejemplo 02: [index.html](01-Ejercicios/public/02/index.html)
+
+¿Cuál es el propósito de los atributos `hx-` en el elemento `form`?
+
+El atributo `hx-post` especifica que el _request_ será por _POST_ al _endpoint_ `/dog` cuando el formulario sea enviado. El _body_ del _request_ contendrá la información del formulario como el nombre y la raza. Y como veremos, la respuesta contendrá un nuevo renglón para la tabla.
+
+El atributo `hx-disabled-elt` desactiva el botón Añadir mientras cualquier _request_ asociado al formulario está siendo procesado. `elt` es la abreviación para elemento. Esto previene envío duplicados o dobles.
+
+El atributo `hx-target` especifica que el HTML regresado deberá remplazar el elemento `tbody` que está dentro del elemento `table`.
+
+El atributo `hx-swatp` especifica que el renglón de la tabla regresado deberá ser insertado después del comienzo de lo indicado. Debido a que el elemento `tbody` es el objetivo, el nuevo renglón de la tabla será insertado antes de todos los renglones existentes.
+
+El atributo `hx-on` especifica que después de que el _request_ _POST_ es procesado, el `form` deberá ser reiniciado. Esto limpia los valores de nombre y raza de los _inputs_. Como versión simplificada `htmx` puede ser removido del atributo, dejándolo en: `hx-on::after-request`.
+
+¿Cuáles son los propósitos de los elementos `hx-` en el elemento `table`?
+
+El atributo `hx-trigger` especifica el evento que lanzará un _HTTP request_. En este caso, se disparará cuando la tabla aparece en pantalla. Para esta app, eso pasa inmediatamente, ya que no hay mucho contenido sobre la tabla. Pero si hubiera más contenido sobre la tabla el usuario necesitaría desplazarse hacia abajo para verla, htmx esperaría hasta que la tabla fuera "_revealed_" "revelada" para enviar el _request_.
+
+El atributo `hx-get` especifica que el _request_ será un _GET_ que deberá enviar a `/table-rows`. Como veremos, la respuesta será el contenido de un renglón de la tabla por cada perro que haya sido ingresado previamente.
+
+El atributo `hx-target` especifica los renglones que serán regresados y remplazaran el contenido del elemento `tbody`.
