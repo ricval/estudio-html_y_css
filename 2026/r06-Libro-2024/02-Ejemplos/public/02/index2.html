@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>htmx Event Triggering</title>
+        <script src="https://unpkg.com/htmx.org@2.0.0"></script>
+        <script>
+            function handleEvent1(event) {
+                const {value} = event.detail;
+                alert('got event1 with ' + value);
+            }
+            function handleEvent2(event) {
+                const {value} = event.detail;
+                alert('got event2 with ' + JSON.stringify(value));
+            }
+            function handleEvent3(event) {
+                const {detail} = event;
+                // detail.elt holds a reference to the element that
+                // triggered the request. JSON.stringify encounters a
+                // circular reference if that is included, so we remove it.
+                delete detail.elt;
+                alert('got event3 with ' + JSON.stringify(detail));
+            }
+        </script>
+    </head>
+    <body
+        hx-on:event1="handleEvent1(event)"
+        hx-on:event2="handleEvent2(event)"
+        hx-on:event3="handleEvent3(event)"
+    >
+        <button hx-get="/event-with-no-data" hx-target="#content">
+            Event w/ no data
+        </button>
+        <button hx-get="/event-with-string" hx-target="#content">
+            Event w/ string
+        </button>
+        <button hx-get="/event-with-object" hx-target="#content">
+            Event w/ object
+        </button>
+        <div id="content"></div>
+    </body>
+</html>

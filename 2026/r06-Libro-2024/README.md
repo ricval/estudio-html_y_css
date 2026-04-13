@@ -6,8 +6,8 @@ Apuntes y prácticas de mi estudio del lenguaje HTMLX, utilizando como guía el 
 
 - **Fecha de inicio**: 2026-04-01
 - **Fecha de término**: Estudiando
-- **Porcentaje de avance**: 12% - p.23 de 182 - `[#######_______________________]` x3
-- **Días efectivos**: 01
+- **Porcentaje de avance**: 25% - p.46 de 182 - `[#######_______________________]` x3
+- **Días efectivos**: 03
 - **Calificación**:
 
 ### 🎯 Tracker
@@ -18,7 +18,7 @@ Apuntes y prácticas de mi estudio del lenguaje HTMLX, utilizando como guía el 
 ## 2026 Abril
 Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju
 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30
-><
+><       ><                         ><
 ```
 
 ## 📕 Información del libro
@@ -46,8 +46,8 @@ Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu
 
 - [Capítulo 0: Introducción](00-Introduccion.md)
 - [Capítulo 1: Saltando Dentro](01-Salta-dentro.md)
-- Capítulo 2: Explorando las Opciones del Servidor
-- Capítulo 3: Desarrollando los _Endpoints_
+- [Capítulo 2: Explorando las Opciones del Servidor](02-Explorando-opciones-servidor.md)
+- [Capítulo 3: Desarrollando _Endpoints_](03-Desarrollando-endpoints.md)
 - Capítulo 4: Recetas para Escenarios Comunes
 - Capítulo 5: Implementando Interactividad
 - Capítulo 6: Utilizando el API JS de htmx

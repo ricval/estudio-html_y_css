@@ -5,9 +5,10 @@ Apuntes y prácticas de mi estudio del lenguaje HTML5 y CSS3, utilizando como gu
 ## ⏲ Información sobre el tiempo dedicado
 
 - **Fecha de inicio**: 2026-02-21
+- **Días trascurridos**: 58
+- **Días efectivos**: 04
 - **Fecha de término**: Estudiando
 - **Porcentaje de avance**: 28% - p.95 de 336 - `[#######_______________________]` x3
-- **Días efectivos**: 04
 - **Calificación**: ⭐⭐⭐ - En ciertas cosas repite mucho los conceptos, pero en otras lo pasa muy rápido.
 
 ### 🎯 Tracker
@@ -15,10 +16,20 @@ Apuntes y prácticas de mi estudio del lenguaje HTML5 y CSS3, utilizando como gu
 ```md
 # Tracker
 
-## 2026 Febrero
+## 2026 - 02 Febrero
 Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa
 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28
-                                                            >< ><    ><       ><
+                                                            >< ><    ><       ><    = 04
+
+## 2026 - 03 Marzo
+Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma
+01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+                                                                                             = 00 += 04
+
+## 2026 - 04 Abril
+Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju
+01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30
+                     ><
 ```
 
 ## 📕 Información del libro
@@ -32,7 +43,7 @@ Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi
 - **Editorial**: The Northern Himalayas
 - **Formato**: PDF
 
-## 🖥 Información sobre mi setup
+## 🖥 Información sobre mi _setup_
 
 - **Editor**: VS Code v1.113
 - **Navegador**: Firefox v149.0

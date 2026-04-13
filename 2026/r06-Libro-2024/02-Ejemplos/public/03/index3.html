@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>htmx CRUD</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="https://unpkg.com/htmx.org@2.0.0"></script>
+    </head>
+    <body>
+        <h1>Perros</h1>
+        <div
+            hx-trigger="revealed, selection-change from:body"
+            hx-get="/form"
+        ></div>
+        <table hx-get="/table-rows" hx-target="tbody" hx-trigger="revealed">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Raza</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </body>
+</html>

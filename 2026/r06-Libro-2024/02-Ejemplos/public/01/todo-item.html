@@ -1,0 +1,11 @@
+<div class="todo-item">
+    <input type="checkbox" hx-patch="/todos/82/toggle-complete" />
+    <div>buy highlighters</div>
+    <input
+        name="description"
+        type="text"
+        value="buy highlighters"
+        hx-patch="/todos/82/description" />
+    <button hx-delete="/todos/82">🗑️</button>
+</div>
+<p id="status" hx-swap-oob="true">2 de 3 remaining</p>
