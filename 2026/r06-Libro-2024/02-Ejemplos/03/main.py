@@ -3,7 +3,7 @@ import uuid
 
 import uvicorn
 from pydantic import BaseModel
-from fastapi import FastAPI, Form
+from fastapi import FastAPI, Form, Response
 from fastapi.responses import FileResponse, HTMLResponse
 from fastapi.staticfiles import StaticFiles
 
@@ -44,7 +44,7 @@ def dog_row(perro: Perro, actualizar: bool = False):
         atributos['hx-swap-oob'] = 'true'
 
     html_content = f"""
-    <tr class="on-hover" id="row-{perro.id}" {atributos}>
+    <tr class="on-hover" id="row-{perro.id}" {" ".join([f'{k}="{v}"' for k, v in atributos.items()])}>
         <td>{perro.nombre}</td>
         <td>{perro.raza}</td>
         <td class="buttons">
@@ -57,14 +57,14 @@ def dog_row(perro: Perro, actualizar: bool = False):
                 type="button"
             >
                 🗑️
-            </button
+            </button>
+            <button
                 class="show-on-hover"
                 hx-put="/select/{perro.id}"
                 hx-swap="none"
                 type="button"
             >
                 ✏️
-            <button>
             </button>
         </td>
     </tr>
@@ -87,6 +87,7 @@ def read_root():
 @app.get("/form", response_class=HTMLResponse)
 def get_form():
     """get_form"""
+    global selected_id  # <--- Indispensable para modificar
     atributos: dict[str, str] = {
         "hx-on:htmx:after-request": "this.reset()"
     }
@@ -100,10 +101,12 @@ def get_form():
         atributos["hx-target"] = "tbody"
         atributos["hx-swap"] = "afterbegin"
     
-    perro_seleccionado = perros.get(selected_id)
+    perro_seleccionado = None
+    if selected_id:
+        perro_seleccionado = perros[selected_id]
 
     html_content = f"""
-    <form hx-disabled-elt="#submit-btn" {atributos}>
+    <form hx-disabled-elt="#submit-btn" {" ".join([f'{k}="{v}"' for k, v in atributos.items()])}>
         <div>
         <label for="name">Nombre</label>
         <input
@@ -112,7 +115,7 @@ def get_form():
             required
             size={30}
             type="text"
-            value={perro_seleccionado.nombre}
+            value="{perro_seleccionado.nombre if perro_seleccionado else ''}"
         />
         </div>
         <div>
@@ -123,7 +126,7 @@ def get_form():
                 required
                 size={30}
                 type="text"
-                value={perro_seleccionado.raza}
+                value="{perro_seleccionado.raza if perro_seleccionado else ''}"
             />
         </div>
         <div class="buttons">
@@ -168,8 +171,9 @@ async def recibe_perro_nuevo(name: str = Form(""), breed: str = Form("")):
 
 
 @app.put("/select/{id}", response_class=HTMLResponse)
-async def reemplazar_perro(response: Response):
+async def reemplazar_perro(id: str, response: Response):
     """reemplazar_perro"""
+    global selected_id  # <--- Indispensable para modificar
     selected_id = id
     # Añadimos el encabezado de Htmx
     response.headers["HX-Trigger"] = "selection-change"
@@ -179,26 +183,29 @@ async def reemplazar_perro(response: Response):
 
 
 @app.put("/dog/{id}", response_class=HTMLResponse)
-async def actualizar_perro(response: Response, name: str = Form(""), breed: str = Form("")):
+async def actualizar_perro(id: str, response: Response, name: str = Form(""), breed: str = Form("")):
     """actualizar_perro"""
     perro_actualizado = Perro(id=id, nombre=name, raza=breed)
     perros[id] = perro_actualizado
 
+    global selected_id  # <--- Indispensable para modificar
     selected_id = ''
     response.headers["HX-Trigger"] = "selection-change"
-    return dog_row(perro_actualizado, true)
+    return dog_row(perro_actualizado, True)
 
 
 @app.put("/deselect", response_class=HTMLResponse)
 async def deseleccionar(response: Response):
-    """reemplazar_perro"""
+    """deseleccionar"""
+    global selected_id  # <--- Indispensable para modificar
     selected_id = ''
     response.headers["HX-Trigger"] = "selection-change"
     return None
 
 
-@app.delete("/dog/{id}")
+@app.delete("/dog/{id}", response_class=HTMLResponse)
 def borrar_perro(id: str):
+    """Eliminar un perro"""
     perros.pop(id)
     return None
 
