@@ -15,10 +15,15 @@ Apuntes y prácticas de mi estudio del lenguaje HTMLX, utilizando como guía el 
 ```md
 # Tracker
 
-## 2026 Abril
-Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju
-01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30
-><       ><                         ><
+## 2026 04 Abril
+  Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju
+  01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30
+  ><       ><                         ><
+
+## 2026 05 Mayo
+  Vi Sa Do Lu Ma Mi
+  01 02 03 04 05 06
+     ><
 ```
 
 ## 📕 Información del libro
@@ -48,7 +53,7 @@ Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu Ma Mi Ju Vi Sa Do Lu
 - [Capítulo 1: Saltando Dentro](01-Salta-dentro.md)
 - [Capítulo 2: Explorando las Opciones del Servidor](02-Explorando-opciones-servidor.md)
 - [Capítulo 3: Desarrollando _Endpoints_](03-Desarrollando-endpoints.md)
-- Capítulo 4: Recetas para Escenarios Comunes
+- [Capítulo 4: Recetas para Escenarios Comunes](04-Recetas-para-escenarios-comunes.md)
 - Capítulo 5: Implementando Interactividad
 - Capítulo 6: Utilizando el API JS de htmx
 - Capítulo 7: Añadiendo Seguridad
