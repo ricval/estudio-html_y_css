@@ -6,8 +6,8 @@ Apuntes y prácticas de mi estudio del lenguaje HTMLX, utilizando como guía el 
 
 - **Fecha de inicio**: 2026-04-01
 - **Fecha de término**: Estudiando
-- **Porcentaje de avance**: 25% - p.46 de 182 - `[#######_______________________]` x3
-- **Días efectivos**: 03
+- **Porcentaje de avance**: 42% - p.78 de 182 - `[############__________________]` x3
+- **Días efectivos**: 05
 - **Calificación**:
 
 ### 🎯 Tracker
@@ -23,7 +23,7 @@ Apuntes y prácticas de mi estudio del lenguaje HTMLX, utilizando como guía el 
 ## 2026 05 Mayo
   Vi Sa Do Lu Ma Mi
   01 02 03 04 05 06
-     ><
+     ><       ><
 ```
 
 ## 📕 Información del libro

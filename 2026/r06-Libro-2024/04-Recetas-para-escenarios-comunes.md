@@ -152,3 +152,239 @@ El atributo `hx-swap` en el botón de borrar es modificado para incrementar la e
 ```
 
 ## Reiniciando un Formulario
+
+Normalmente es deseable reiniciar un `form` después de un envío exitoso. Esto limpia todos los controles contenidos en el `form` para prepararlo parar un nuevo ingreso de información. Un `form` pude ser reiniciado llamando a `this.reset()` donde `this` hace referencia al `form`.
+
+Para especificar un código que se ejecute después de que la petición ha sido enviado y una respuesta ha sido recibida, utiliza el atributo `hx-on:htmx:after-request`. La versión corta de este atributo es: `hx-on::after-request`, el cual remueve el `htmx` de en medio.
+
+```html
+<form
+  hx-post="/todos"
+  hx-target="#todo-list"
+  hx-swatp="afterbegin"
+  hx-disabled-elt="#add-btn"
+  hx-indicator=".htmx-indicator"
+  hx-on::after-request="this.reset()"
+  x-data="{text: ''}"
+>
+  <input
+    name="description"
+    placeholder="enter new todo here"
+    size="{30}"
+    type="text"
+    x-model="text"
+  >
+  <button id="add-btn" :disabled="text.trim().length === 0">
+    Add
+  </button>
+   <img alt="loading" class="htmx-indicator" src="spinner.gif" />
+</form>
+```
+
+- `hx-target` - Especifica el HTML regresado por el _endpoint_ POST `/todos` que coincidirá con los elementos con el id "todo-list" (no mostrados aquí).
+
+- `hx-swap` - Especifica el HTML regresado que será insertado al principio del contenido del elemento objetivo.
+
+- `hx-disabled-elt` - Especifica el botón "Add" que debería ser deshabilitado mientras la petición POST `/todos` está siendo procesada.
+
+- `hx-indicator` - El elemento con la clase CSS "htmx-indicator" debería mostrar mientras la petición POST `/todos` está siendo procesada.
+
+- `hx-on::after-request` - Especifica el `form` que debería ser reiniciado después de recibir la respuesta satisfactoria del POST `/todos`.
+
+
+## Búsqueda Activa
+
+Cuando el usuario detiene su tecleo por 200 milisegundos y el valor del input ha cambiado, la petición POST es enviada al _endpoint_ `/search`. Nota que presionando las teclas de flecha que mueven el cursos a través del `input` no cambian el valor. El _endpoint_ regresa un listado de items (elementos `li`) describiendo los nombres que coinciden. Estos remplazan el contenido actual (`innerHTML`) de los elementos de la lista sin orden (`ul`) con el id "matches".
+
+```html
+<html>
+    <head>
+        <title>htmx Active Search</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="https://unpkg.com/htmx.org@2.0.0"></script>
+    </head>
+    <body>
+        <label for="name">Name</label>
+        <input
+            autofocus
+            hx-trigger="keyup changed delay:200ms"
+            hx-post="/search"
+            hx-target="#matches"
+            name="name"
+            size="{10}"
+        >
+        <ul id="matches"></ul>
+    </body>
+</html>
+```
+
+## Actualizaciones Optimistas
+
+Si un _endpoint_ puede ser lento al responder, utilizando `hx-indicator` para mostrar un _spinner_ es buena idea. La interfaz puede asumir éxito y actualizarse a sí mismo optimisticamente. Por ejemplo, presionando en el botón "like" puedes inmediatamente cambiar el color o quitarlo que será utilizado cuando la respuesta es recibida. Si la respuesta indica éxito, el color cambia a lleno de color. Si la respuesta indica un fallo, el color puede ser reiniciado.
+
+Cuando la columna con el corazón de "like" es presionada, dos cosas pasan. Primero, la función `optimisticLike` es llamada e inmediatamente remplaza el corazón actual con uno rosa. Segundo, la petición PUT es enviada a el _endpoint_ `/dog/:breed` para intercambiar cualquier raza de perro que te guste en el servidor. Este _endpoint_ regresa un nuevo corazón que será rojo o blanco y remplaza el corazón rosa que es temporalmente mostrado.
+
+```html
+<script>
+    function optimisticLike(event)  {
+        const td = event.target;
+        // Replace the text "pink-heart" with the corresponding emoji.
+        td.textContent = 'pink-heart';
+    }
+</script>
+    ...
+    <table hx-get="/table-rows" hx-target="tbody" hx-trigger="revealed">
+        <thead>
+            <tr>
+                <th>Raza</th>
+                <th>¿Te Gusta?</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <img alt="loading" class="htmx-indicator" src="/spinner.gif" />
+    ...
+```
+Segmento htmx
+
+```html
+    <tr>
+        <td>{breed}</td>
+        <td
+            class="center"
+            hx-put="{/dog/${breed}"
+            hx-indicator=".htmx-indicator"
+            hx-on:click="optimisticLike(event)"
+        >
+            { getHeart(dogs.get(breed) ?? false) }
+        </td>
+    </tr>
+```
+
+## Paginación
+
+Cuando hay un gran número de items que desplegar. Normalmente se utiliza la paginación para mostrar una página de items a la vez.
+
+El siguiente HTML renderiza una table que es llenada a través de la petición GET `/image-row` cuando la página es cargada. Utiliza el parámetro `page` para indicar que página de las imagenes debería mostrar -- inicialmente sería la 1. El servidor establece el tamaño de la página en 5, que es el número de imagenes que serán mostradas.
+
+HTML inicial:
+
+```html
+...
+<body>
+    <h1>Pagination</h1>
+    <table
+        hx-trigger="load"
+        hx-get="/image-rows?page=1"
+        hx-indicator=".htmx-indicator"
+    ></table>
+    <div id="pagination-row">
+        <span id="pagination-buttons"></span>
+        <img alt="loading" class="htmx-indicator" src="/spinner.gif" />
+    </div>
+</body>
+...
+```
+
+Segmento de remplazo htmx:
+
+```html
+<!-- It doesn't work to put the headings in index.html and replace tbody instead of table. -->
+<table id="image-table">
+    <tr>
+        <th>File Name</th>
+        <th>Image</th>
+    </tr>
+    {pageFilenames.map((filename, index) => {
+        const isLast = index === ROWS_PER_PAGE - 1;
+        return ImageRow(filename, isLast);
+    })}
+</table>
+
+<!-- The hx-indicator and hx-target attributes are inherited by the buttons inside this span. -->
+<span
+    id="pagination-buttons"
+    hx-swap-oob="true"
+    hx-indicator=".htmx-indicator"
+    hx-target="#image-table"
+>
+    <button
+        disabled={page === 1}
+        hx-get={`/image-rows?page=${page - 1}`}
+    >
+        Previous
+    </button>
+        <button hx-get={`/image-rows?page=${page + 1}`}>Next</button>
+</span>
+```
+
+## _Scroll_ Infinito
+
+Otra aproximación para manejar los casos donde hay un gran número de items para desplegar es el llamdo _scroll_ infinito.
+Inicialmente, un número pequeño de items es traido del servidor. Cuando el usuario comienza ha hacer _scroll_ hacía abajo hasta llegar al último item en la vista, una petición para obtener más items es automaticamente enviada al servidor. Esto se repite cada vez que el usuario siga haciendo _scroll_ hacía abajo, dando la ilusión de que todos los items fueron cargados a la vez.
+
+Utiliza `hx-swap="beforeend"` para establecer que los renglones de la tabla regresados por el servidor deberen ser colocados antes del final de la tabla en lugar de remplazar la tabla entera.
+
+HTML inicial:
+
+```html
+...
+<body>
+    <h1>Scroll infinito</h1>
+    <table
+        hx-trigger="load"
+        hx-get="/image-rows?page=1"
+        hx-indicator=".htmx-indicator"
+        hx-swap="beforeend"
+    >
+        <tr>
+            <th>Nombre</th>
+            <th>Descripción</th>
+        </tr>
+    </table>
+    <img alt="loading" class="htmx-indicator" src="/spinner.gif" />
+</body>
+...
+```
+
+Segmento htmx para el último renglón de la tabla:
+
+```html
+    <!-- Solo si es el último renglón, sino va vacío -->
+    <tr 
+        hx-trigger="revealed"
+        hx-get="/image-rows?page=" + (page + 1)
+        hx-indicator=".htmx-indicator"
+        hx-swap="afterend"
+    >
+        <td>{filename}</td>
+        <td>
+            <img alt="{filename}" src="{./images/ + filename}" />
+        </td>
+    </tr>
+```
+
+## Alternando Selección
+
+Una forma de permitir a los usuario selección una sola opción de una colección de opciones es utilizando el elemento `select` HTML. Otra aproximación es desplegar un conjunto de botones y estilizarlos para mostrar el más reciente presionado con un estilo diferente. Esto tiene la ventaja que los usuarios pueden ver todas las opciones disponibles sin tener que presionar sobre ellas, pero no es recomendable para una gran número de opciones.
+
+En casos donde la selección necesita ser enviada al servidor, para guardar datos en base de datos, podemos utilizar intercambios fuera-de-banda de htmx.
+
+El siguiente HTML envía una petición GET al _endpoint_ `/dogs` para regresar un conjunto inicial de botones que muestran nombres de perros.
+
+Carga inicial:
+
+```html
+<body hx-get="/dogs" hx-trigger="load"></body>
+```
+
+Envío de segmento htmx:
+
+```html
+<button class={classes} hx-get={`/toggle/${name}`} id={name} {...attrs}>
+    {name}
+</button>
+```
+
+## Votación (_Polling_)
+
